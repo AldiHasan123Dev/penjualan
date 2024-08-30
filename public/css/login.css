@@ -1,0 +1,122 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(/img/bg-body.jpeg);
+
+}
+
+.alert {
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+  }
+  
+  .alert-heading {
+    color: inherit;
+  }
+  
+  .alert-link {
+    font-weight: 700;
+  }
+  
+  .alert-dismissible {
+    padding-right: 3rem;
+  }
+
+  .alert-danger {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+    text-align: center;
+  }
+  .alert-danger .alert-link {
+    color: #6a1a21;
+  }
+
+
+.box {
+    position: absolute;
+    width: 400px;
+    background: #3E5151;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 0 10px 10px 10px rgb(0, 0, 0, .2);
+}
+
+.header {
+    background-image: url(/img/bg-stock.jpg);
+    background-size: cover;
+    break-before: left;
+    padding: 70px 20px;
+    color: white;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+}
+
+h4{
+    margin: 40px;
+}
+
+.header p {
+    font-size: x-small;
+}
+
+.login-area {
+    text-align: center;
+    padding: 50px 50px 30px 50px;
+    color: white;
+}
+
+.username,
+.password {
+    width: 100%;
+    text-align: center;
+    padding: 13px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #DECBA4;;
+    margin-bottom: 15px;
+    transition: 0,5s;
+    box-shadow: 10px;
+}
+
+.username::placeholder,
+.password::placeholder {
+    color: white
+}
+
+.username:focus,
+.password:focus {
+    background-color: rgba(159, 164, 115, 0.7);
+}
+
+.submit {
+    width: 150px;
+    padding: 10px;
+    background-color: #DECBA4;;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgba(159, 164, 115, 0.7);
+}
+
+a {
+    display: block;
+    font-size: x-small;
+    text-decoration: none;
+    margin-top: 10px;
+}
